@@ -1,8 +1,14 @@
-The negex ground truth files (Annotation-1-120.txt, rsAnnotations-1-120-random.txt) were obtained from:
+The negex ground truth files Annotation-1-120.txt was obtained from:
 
 https://github.com/mongoose54/negex
 
-The code for this project creates an output file by running wrapper.py (the file is included in this folder negex_output.txt).
+rsAnnotations-1-120-random.txt) was obtained from:
+
+https://github.com/chapmanbe/negex
+
+The code for Peter Kang's negex project creates an output file by running wrapper.py on Annotation-1-120.txt
+(the file is included in this folder negex_output.txt).
+
 This file is used to evaluate the TruthStatus values produced by determine_assertion_truth_status.py 
 This evaluation uses the "phrases" given in the ground truth files.
 
